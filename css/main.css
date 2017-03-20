@@ -1,0 +1,164 @@
+html, body, footer{
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: auto;
+}
+
+/* Message Label Banner intro to Jorge */
+#messageLabel{
+  color: rgb(0, 0, 0,);
+  margin-top: 2px;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center
+  @media screen and (max-width:850px)
+    font-size: 2em;
+  @media screen and (max-width: 850px)
+    font-size: 1.5em;
+  padding: 20px 20px 30px 20px;
+}
+
+header{
+  background:rgba(12,9,13,.9);
+  color:orange;
+  text-align: center;
+}
+header p{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+}
+.container2{
+  background: rgb(255,96,76);
+  padding: 0px 20px 10px;
+}
+.container2 .row {
+  text-align: left;
+  padding: 0px 80px;
+  margin-left: 20px;
+}
+#experience p{
+  text-align: center;
+}
+#aboutMe p{
+  text-align: center;
+}
+#contactme p{
+  text-align: center;
+}
+h1 {
+  font-size:18px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+#contactme h2 {
+  text-align:center;
+}
+
+#name h2{
+  font-size: 64px;
+  text-align: left;
+}
+li {
+  float: left;
+  display: inline-block;
+  list-style: none;
+  padding: 0 4px;
+}
+li a {
+  color: orange;
+}
+li a:hover{
+  color: rgb(255,96,76);
+  text-decoration: none;
+}
+p{
+  font-size: 14px;
+}
+ul{
+  margin: 15px;
+}
+.menu {
+  float:right;
+  padding-right: 9px;
+}
+.intro{
+  background: rgb(88,184,207);
+  text-align: center;
+  /*border-radius: 30px;*/
+  padding: 48px 48px;
+}
+.projects{
+  background: rgb(255,199,49);
+  text-align: center;
+  padding: 52px 52px 85px 52px;
+}
+.projects h2{
+  font-size: 48px;
+}
+
+/* Projects button and drop down */
+button{
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 15px;
+  color: black;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+button:hover{
+  background: rgb(255,96,76);
+  transition: all 0.2s ease 0s;
+}
+#myDIV ol{
+  text-align: left;
+  display: inline-block;
+  padding: 25px 30px 0px 30px;
+}
+#myDIV li{
+  padding: 0px 75px 0px 75px;
+}
+
+.background {
+  width:100%;
+  height:350px;
+  background-color:red;
+}
+
+.background.slide1 {
+  /*replace with whatever*/
+  background:url('https://image.freepik.com/free-vector/decorative-geometric-colorful-abstract-background-vector-set_293-914.jpg');
+}
+
+.background.slide2 {
+  background: rgba(5,200,60,.6);
+  /*background:url('http://www.rgbstock.com/cache1wqcg2/users/x/xy/xymonau/300/oyWxHOm.jpg');
+*/
+}
+
+.background.slide3 {
+  background:url('http://images.thinkdrawart.com/wp-content/uploads/2012/04/Fantasy-Sky-Step1.jpg');
+}
+r
+
+/* Use media query below, for anything above
+1024px or 768px hide the burger, and show everything else
+
+below 1024px or 768px hide everything else, and only show the burger*/
+footer p{
+  background: black;
+  color: orange;
+  height: 40px;
+  text-align: center;
+  padding: 40px 20px;
+  margin: auto;
+  max-height:100%;
+}
+
+
